@@ -1,11 +1,7 @@
 // archivo: romanos.js
 function convertirARomanos(num) {
     const valores = [
-        // { valor: 500, simbolo: 'D' },
-        // { valor: 100, simbolo: 'C' },
-        // { valor: 50, simbolo: 'L' },
-        // { valor: 10, simbolo: 'X' },
-        // { valor: 5, simbolo: 'V' },
+        { valor: 5, simbolo: 'V' },
         { valor: 1, simbolo: 'I' }
     ];
 
@@ -20,5 +16,5 @@ function convertirARomanos(num) {
     return resultado;
 }
 
-module.exports = convertirARomanos;
+//module.exports = convertirARomanos;
 export default convertirARomanos;
