@@ -18,5 +18,7 @@ test('Convierte 50 a L', () => {
     expect(convertirARomanos(50)).toBe('L');
 });
 
-
+test('Convierte 100 a C', () => {
+    expect(convertirARomanos(100)).toBe('C');
+});
 

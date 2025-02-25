@@ -1,6 +1,7 @@
 // archivo: romanos.js
 function convertirARomanos(num) {
     const valores = [
+        { valor: 100, simbolo: 'C' },
         { valor: 50, simbolo: 'L' },
         { valor: 10, simbolo: 'X' },
         { valor: 5, simbolo: 'V' },
